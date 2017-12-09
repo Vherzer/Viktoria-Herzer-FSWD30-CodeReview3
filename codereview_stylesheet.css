@@ -65,8 +65,10 @@
 .teammember a{
 	text-decoration: none;
 }
-.teammember a:hover {
+.teammember p:hover {
 	text-decoration: underline;
+	font-size: 90%;
+	
 }
 .name{
 	margin-top: 0px;
@@ -77,7 +79,7 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding-top:  0px;
-	padding-bottom: 10px;
+	padding-bottom: 9px;
 }
 #sectionbutton{
 	background-color: #F4F4F4;
@@ -85,8 +87,8 @@
 	margin-bottom: 0px;
 	margin-top: 0px;
 	height: 90px;	
-
 }
+
 #sectionbutton button{
 	height: 50px;
 	margin-top: 20px;
@@ -101,8 +103,12 @@
 	padding-top: 0px;
 	padding-left: 15px;
 	padding-right: 15px;
-
 }
+
+#sectionbutton button:hover{
+	font-size: 150%;
+}
+
 #questionnaire{
 	background-color: #426A7F;
 	padding-top: 20px;
@@ -146,13 +152,17 @@ form input{
 #calculatebutton button{
 	color: #426A7F;
 	font-family: "Encode sans";
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 20px;
-	border-radius: 3px;
+	border-radius: 5px;
+	width: 12s0px;
 	background: linear-gradient(to bottom, #FDFDFD 0%, #C7C7C7 100%);
-
-
 }
+
+#calculatebutton button:hover{
+	font-size: 130%;
+}
+
 #result{
 	background-color: #F4F4F4;
 	height: 30px;
