@@ -19,16 +19,16 @@
 	<section id="questionnaire">
 		<form action="codereview_3_submit">
 			Your Name: <input type="text" name="Name" > <br>
-			Age: <input type="text" name="Age" > <br>
+			Age: <input id="age" type="text" name="Age" > <br>
 			Country: <input type="text" name="Country" > <br>
-			Horsepower: <input type="text" name="Horsepower"><br>
+			Horsepower: <input id="hp" type="text" name="Horsepower"><br>
 		</form>
 	</section>
 	<div id="calculatebutton">
-		<button onlick="codereview_3.page2.html">calculate</button>
+		<button onclick="calculateinsurance()">calculate</button>
 	</div>
 	<section id="result">
-		<h1 id="printedcalc"> PRINTED CALCULATION GOES HERE</h1>
+		<p id="sum"></p>
 		
 	</section>
 
